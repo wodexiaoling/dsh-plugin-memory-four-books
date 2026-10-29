@@ -1,0 +1,4 @@
+- insert:
+    - id: memory-four-books
+      name: dsh-plugin-memory-four-books
+      config: {}

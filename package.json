@@ -1,0 +1,51 @@
+{
+  "name": "dsh-plugin-memory-four-books",
+  "version": "0.1.0",
+  "description": "Layered long-term memory for DeepSeek Harness: red lines / today / in-progress / common sense / archive, with BM25 recall, automatic capture and automatic consolidation. Zero dependencies, plain text.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "cordis.patch.yml",
+    "locale/",
+    "icon.svg",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "memory",
+    "long-term-memory",
+    "agent-memory",
+    "bm25",
+    "retrieval",
+    "context"
+  ],
+  "license": "MIT",
+  "author": "wodexiaoling",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wodexiaoling/dsh-plugin-memory-four-books.git"
+  },
+  "homepage": "https://github.com/wodexiaoling/dsh-plugin-memory-four-books#readme",
+  "bugs": {
+    "url": "https://github.com/wodexiaoling/dsh-plugin-memory-four-books/issues"
+  },
+  "engines": {
+    "dsh": ">=0.2.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

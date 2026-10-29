@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="记忆四册">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5b8def"/>
+      <stop offset="1" stop-color="#7b5cf0"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#12151c"/>
+  <!-- 四册：从后到前叠放 -->
+  <rect x="15" y="14" width="30" height="7" rx="2.5" fill="url(#g)" opacity="0.45"/>
+  <rect x="13" y="23" width="34" height="7" rx="2.5" fill="url(#g)" opacity="0.65"/>
+  <rect x="11" y="32" width="38" height="7" rx="2.5" fill="url(#g)" opacity="0.85"/>
+  <!-- 最近的一册：带书脊与记忆线 -->
+  <rect x="9" y="41" width="42" height="11" rx="3" fill="url(#g)"/>
+  <rect x="15" y="45.5" width="20" height="2" rx="1" fill="#12151c" opacity="0.55"/>
+  <!-- 记忆环 -->
+  <circle cx="47" cy="17" r="6" fill="none" stroke="#8fb4ff" stroke-width="2" opacity="0.9"/>
+  <circle cx="47" cy="17" r="1.8" fill="#8fb4ff"/>
+</svg>
